@@ -8,6 +8,8 @@ import { MapPin, Mail, Briefcase, Calendar, ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
 import { AboutSection as AboutData } from "@/services/about.service";
 import { LampContainer } from "@/components/ui/lamp";
+import { TracingBeam } from "@/components/ui/tracing-beam";
+import { Particles } from "@/components/ui/particles";
 
 interface AboutSectionProps {
   data: AboutData | null;
@@ -64,6 +66,15 @@ export default function AboutSection({ data }: AboutSectionProps) {
 
   return (
     <section id="about" className="py-20 relative overflow-hidden bg-zinc-950 border-t border-zinc-900">
+      {/* Background Particles (yellow theme, 40% opacity) */}
+      <Particles
+        className="absolute inset-0 z-0 opacity-40"
+        quantity={120}
+        staticity={40}
+        ease={60}
+        color="#d0f000"
+        refresh
+      />
       {/* Section Header with Aceternity Lamp Effect (Edge-to-Edge) */}
       <LampContainer className="min-h-[400px] h-[400px] -mb-20 select-none w-full bg-transparent">
         <motion.div
@@ -86,8 +97,8 @@ export default function AboutSection({ data }: AboutSectionProps) {
         </motion.div>
       </LampContainer>
 
-      {/* Main Biography Content Grid (Constrained max-w-7xl) */}
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
+      {/* Main Biography Content Grid with Tracing Beam */}
+      <TracingBeam className="px-6 sm:px-8 lg:px-12 relative z-10 w-full max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-20 items-start">
           
           {/* Left Column: Styled Portrait Photo & Meta Info Grid */}
@@ -178,7 +189,7 @@ export default function AboutSection({ data }: AboutSectionProps) {
           </motion.div>
 
         </div>
-      </div>
+      </TracingBeam>
     </section>
   );
 }

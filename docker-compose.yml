@@ -1,0 +1,55 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: porto-postgres
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-postgres}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-postgres}
+      POSTGRES_DB: ${POSTGRES_DB:-porto_cms}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres} -d ${POSTGRES_DB:-porto_cms}"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: ../docker/frontend/Dockerfile
+    container_name: porto-frontend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-postgres}:${POSTGRES_PASSWORD:-postgres}@postgres:5432/${POSTGRES_DB:-porto_cms}?schema=public
+      AUTH_SECRET: ${AUTH_SECRET:-super-secret-key-change-me-in-production-123456}
+      NEXTAUTH_SECRET: ${AUTH_SECRET:-super-secret-key-change-me-in-production-123456}
+      NEXTAUTH_URL: ${NEXTAUTH_URL:-http://localhost}
+      AUTH_TRUST_HOST: "true"
+    volumes:
+      - uploads_data:/app/public/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  nginx:
+    build:
+      context: ./docker/nginx
+      dockerfile: Dockerfile
+    container_name: porto-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    volumes:
+      - uploads_data:/var/www/uploads:ro
+    depends_on:
+      - frontend
+
+volumes:
+  pgdata:
+    name: porto-pgdata
+  uploads_data:
+    name: porto-uploads-data

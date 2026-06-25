@@ -1,0 +1,116 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Z ZagoourCMS" [ref=e6] [cursor=pointer]:
+            - /url: /dashboard
+            - generic [ref=e7]: Z
+            - generic [ref=e8]: ZagoourCMS
+          - button "Toggle Sidebar" [ref=e9]:
+            - img [ref=e10]
+        - navigation [ref=e12]:
+          - link "Overview" [ref=e13] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e14]
+            - generic [ref=e19]: Overview
+          - link "Hero Section" [ref=e20] [cursor=pointer]:
+            - /url: /dashboard/hero
+            - img [ref=e21]
+            - generic [ref=e23]: Hero Section
+          - link "About Me" [ref=e24] [cursor=pointer]:
+            - /url: /dashboard/about
+            - img [ref=e25]
+            - generic [ref=e28]: About Me
+          - link "Skills" [ref=e29] [cursor=pointer]:
+            - /url: /dashboard/skills
+            - img [ref=e30]
+            - generic [ref=e34]: Skills
+          - link "Projects" [ref=e35] [cursor=pointer]:
+            - /url: /dashboard/projects
+            - img [ref=e36]
+            - generic [ref=e39]: Projects
+          - link "Blog Posts" [ref=e40] [cursor=pointer]:
+            - /url: /dashboard/blog
+            - img [ref=e41]
+            - generic [ref=e44]: Blog Posts
+          - link "Services" [ref=e45] [cursor=pointer]:
+            - /url: /dashboard/services
+            - img [ref=e46]
+            - generic [ref=e51]: Services
+          - link "Testimonials" [ref=e52] [cursor=pointer]:
+            - /url: /dashboard/testimonials
+            - img [ref=e53]
+            - generic [ref=e58]: Testimonials
+          - link "Contact Leads" [ref=e59] [cursor=pointer]:
+            - /url: /dashboard/leads
+            - img [ref=e60]
+            - generic [ref=e63]: Contact Leads
+          - link "Site Settings" [ref=e64] [cursor=pointer]:
+            - /url: /dashboard/settings
+            - img [ref=e65]
+            - generic [ref=e68]: Site Settings
+      - paragraph [ref=e70]: v1.1 · Opsi 1 Monolith
+    - generic [ref=e71]:
+      - banner [ref=e72]:
+        - heading "Leads" [level=2] [ref=e73]
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - generic [ref=e80]:
+              - generic [ref=e81]: Admin Zagoour
+              - generic [ref=e82]: admin@porto.com
+          - button "Sign Out" [ref=e83]:
+            - img
+      - main [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e87]:
+            - heading "Contact Leads" [level=1] [ref=e89]
+            - paragraph [ref=e90]: Inbox for form submissions sent from your website's contact section.
+          - table [ref=e94]:
+            - rowgroup [ref=e95]:
+              - row "Status Sender Subject Message Received Actions" [ref=e96]:
+                - columnheader "Status" [ref=e97]
+                - columnheader "Sender" [ref=e98]
+                - columnheader "Subject" [ref=e99]
+                - columnheader "Message" [ref=e100]
+                - columnheader "Received" [ref=e101]
+                - columnheader "Actions" [ref=e102]
+            - rowgroup [ref=e103]:
+              - row [ref=e104]:
+                - cell [ref=e105]
+                - cell [ref=e107]
+                - cell [ref=e109]
+                - cell [ref=e111]
+                - cell [ref=e113]
+                - cell [ref=e115]
+              - row [ref=e117]:
+                - cell [ref=e118]
+                - cell [ref=e120]
+                - cell [ref=e122]
+                - cell [ref=e124]
+                - cell [ref=e126]
+                - cell [ref=e128]
+              - row [ref=e130]:
+                - cell [ref=e131]
+                - cell [ref=e133]
+                - cell [ref=e135]
+                - cell [ref=e137]
+                - cell [ref=e139]
+                - cell [ref=e141]
+              - row [ref=e143]:
+                - cell [ref=e144]
+                - cell [ref=e146]
+                - cell [ref=e148]
+                - cell [ref=e150]
+                - cell [ref=e152]
+                - cell [ref=e154]
+              - row [ref=e156]:
+                - cell [ref=e157]
+                - cell [ref=e159]
+                - cell [ref=e161]
+                - cell [ref=e163]
+                - cell [ref=e165]
+                - cell [ref=e167]
+  - region "Notifications alt+T"
+  - alert [ref=e169]

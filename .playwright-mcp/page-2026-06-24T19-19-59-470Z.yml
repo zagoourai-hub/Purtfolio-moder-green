@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - img [ref=e5]
+    - generic [ref=e7]:
+      - heading "Something went wrong!" [level=2] [ref=e8]
+      - paragraph [ref=e9]: An unexpected application error occurred. Zagoour has logged this incident.
+    - generic [ref=e10]:
+      - button "Try Again" [ref=e11]
+      - button "Go Home" [ref=e12]
+  - region "Notifications alt+T"
+  - alert [ref=e13]

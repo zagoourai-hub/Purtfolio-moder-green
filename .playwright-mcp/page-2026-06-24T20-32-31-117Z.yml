@@ -1,0 +1,98 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "P." [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]
+          - generic [ref=e9]: P.
+        - navigation [ref=e10]:
+          - link "Beranda" [ref=e11] [cursor=pointer]:
+            - /url: /#hero
+          - link "Tentang Saya" [ref=e12] [cursor=pointer]:
+            - /url: /#about
+          - link "Proyek" [ref=e13] [cursor=pointer]:
+            - /url: /projects
+            - text: Proyek
+          - link "Blog" [ref=e15] [cursor=pointer]:
+            - /url: /blog
+          - link "Kontak" [ref=e16] [cursor=pointer]:
+            - /url: /#contact
+        - generic [ref=e17]:
+          - link "Ayo Ngobrol" [ref=e18] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Ayo Ngobrol
+            - img [ref=e19]
+          - img [ref=e22] [cursor=pointer]
+    - main [ref=e27]:
+      - generic [ref=e29]:
+        - heading "404" [level=1] [ref=e30]
+        - heading "This page could not be found." [level=2] [ref=e32]
+    - contentinfo [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - generic [ref=e36]:
+            - link "P." [ref=e37] [cursor=pointer]:
+              - /url: /
+              - img [ref=e38]
+              - generic [ref=e40]: P.
+            - paragraph [ref=e41]: © 2026 Namakamu. Semua hak dilindungi.
+          - generic [ref=e42]:
+            - heading "Navigasi" [level=4] [ref=e43]
+            - generic [ref=e44]:
+              - link "Beranda" [ref=e45] [cursor=pointer]:
+                - /url: "#hero"
+              - link "Tentang Saya" [ref=e46] [cursor=pointer]:
+                - /url: "#about"
+              - link "Proyek" [ref=e47] [cursor=pointer]:
+                - /url: /projects
+              - link "Blog" [ref=e48] [cursor=pointer]:
+                - /url: /blog
+              - link "Kontak" [ref=e49] [cursor=pointer]:
+                - /url: "#contact"
+          - generic [ref=e50]:
+            - heading "Layanan" [level=4] [ref=e51]
+            - generic [ref=e52]:
+              - link "Web Development" [ref=e53] [cursor=pointer]:
+                - /url: /services
+              - link "UI/UX Design" [ref=e54] [cursor=pointer]:
+                - /url: /services
+              - link "Branding" [ref=e55] [cursor=pointer]:
+                - /url: /services
+              - link "SEO Optimization" [ref=e56] [cursor=pointer]:
+                - /url: /services
+          - generic [ref=e57]:
+            - heading "Kontak" [level=4] [ref=e58]
+            - generic [ref=e59]:
+              - link "hello@namakamu.com" [ref=e60] [cursor=pointer]:
+                - /url: mailto:hello@namakamu.com
+              - generic [ref=e61]: +62 812 3456 7890
+              - generic [ref=e62]: Jakarta, Indonesia
+          - generic [ref=e63]:
+            - heading "Ikuti Saya" [level=4] [ref=e64]
+            - generic [ref=e65]:
+              - link [ref=e66] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e67]
+              - link [ref=e70] [cursor=pointer]:
+                - /url: https://linkedin.com
+                - img [ref=e71]
+              - link [ref=e75] [cursor=pointer]:
+                - /url: https://twitter.com
+                - img [ref=e76]
+              - link [ref=e78] [cursor=pointer]:
+                - /url: https://instagram.com
+                - img [ref=e79]
+            - generic [ref=e82]:
+              - generic [ref=e83]:
+                - text: CODE.
+                - text: CREATE.
+                - text: IMPACT.
+              - img [ref=e86]
+        - generic [ref=e89]:
+          - paragraph [ref=e90]: Didesain ulang sesuai dengan spesifikasi referensi.
+          - paragraph [ref=e91]:
+            - text: Build with premium aesthetics by
+            - generic [ref=e92]: Zagoour Studio
+  - region "Notifications alt+T"
+  - alert [ref=e93]

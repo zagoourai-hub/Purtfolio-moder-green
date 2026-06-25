@@ -1,0 +1,106 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - complementary [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "Z ZagoourCMS" [ref=e6] [cursor=pointer]:
+            - /url: /dashboard
+            - generic [ref=e7]: Z
+            - generic [ref=e8]: ZagoourCMS
+          - button "Toggle Sidebar" [ref=e9]:
+            - img [ref=e10]
+        - navigation [ref=e12]:
+          - link "Overview" [ref=e13] [cursor=pointer]:
+            - /url: /dashboard
+            - img [ref=e14]
+            - generic [ref=e19]: Overview
+          - link "Hero Section" [ref=e20] [cursor=pointer]:
+            - /url: /dashboard/hero
+            - img [ref=e21]
+            - generic [ref=e23]: Hero Section
+          - link "About Me" [ref=e24] [cursor=pointer]:
+            - /url: /dashboard/about
+            - img [ref=e25]
+            - generic [ref=e28]: About Me
+          - link "Skills" [ref=e29] [cursor=pointer]:
+            - /url: /dashboard/skills
+            - img [ref=e30]
+            - generic [ref=e34]: Skills
+          - link "Projects" [ref=e35] [cursor=pointer]:
+            - /url: /dashboard/projects
+            - img [ref=e36]
+            - generic [ref=e39]: Projects
+          - link "Blog Posts" [ref=e40] [cursor=pointer]:
+            - /url: /dashboard/blog
+            - img [ref=e41]
+            - generic [ref=e44]: Blog Posts
+          - link "Services" [ref=e45] [cursor=pointer]:
+            - /url: /dashboard/services
+            - img [ref=e46]
+            - generic [ref=e51]: Services
+          - link "Testimonials" [ref=e52] [cursor=pointer]:
+            - /url: /dashboard/testimonials
+            - img [ref=e53]
+            - generic [ref=e58]: Testimonials
+          - link "Contact Leads" [ref=e59] [cursor=pointer]:
+            - /url: /dashboard/leads
+            - img [ref=e60]
+            - generic [ref=e63]: Contact Leads
+          - link "Site Settings" [ref=e64] [cursor=pointer]:
+            - /url: /dashboard/settings
+            - img [ref=e65]
+            - generic [ref=e68]: Site Settings
+      - paragraph [ref=e70]: v1.1 · Opsi 1 Monolith
+    - generic [ref=e71]:
+      - banner [ref=e72]:
+        - heading "Leads" [level=2] [ref=e73]
+        - generic [ref=e74]:
+          - generic [ref=e75]:
+            - img [ref=e77]
+            - generic [ref=e80]:
+              - generic [ref=e81]: Admin Zagoour
+              - generic [ref=e82]: admin@porto.com
+          - button "Sign Out" [ref=e83]:
+            - img
+      - main [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - heading "Contact Leads" [level=1] [ref=e89]
+              - generic [ref=e170]: 1 Unread
+            - paragraph [ref=e90]: Inbox for form submissions sent from your website's contact section.
+          - table [ref=e94]:
+            - rowgroup [ref=e95]:
+              - row "Status Sender Subject Message Received Actions" [ref=e96]:
+                - columnheader "Status" [ref=e97]
+                - columnheader "Sender" [ref=e98]
+                - columnheader "Subject" [ref=e99]
+                - columnheader "Message" [ref=e100]
+                - columnheader "Received" [ref=e101]
+                - columnheader "Actions" [ref=e102]
+            - rowgroup [ref=e103]:
+              - row "Zagoour QA Bot qa-bot@zagoour.test (No Subject) Ini pesan test otomatis dari live testing Playwright pada 2026-06-25. Tolong abaikan / hapus lead ini. 6/25/2026, 3:29:43 AM" [ref=e171]:
+                - cell [ref=e172]:
+                  - button "Mark as Read" [ref=e173]:
+                    - img
+                - cell "Zagoour QA Bot qa-bot@zagoour.test" [ref=e174]:
+                  - generic [ref=e175]:
+                    - generic [ref=e176]: Zagoour QA Bot
+                    - generic [ref=e177]: qa-bot@zagoour.test
+                - cell "(No Subject)" [ref=e178]
+                - cell "Ini pesan test otomatis dari live testing Playwright pada 2026-06-25. Tolong abaikan / hapus lead ini." [ref=e179]:
+                  - generic [ref=e180]: Ini pesan test otomatis dari live testing Playwright pada 2026-06-25. Tolong abaikan / hapus lead ini.
+                - cell "6/25/2026, 3:29:43 AM" [ref=e181]:
+                  - generic [ref=e182]:
+                    - img [ref=e183]
+                    - generic [ref=e185]: 6/25/2026, 3:29:43 AM
+                - cell [ref=e186]:
+                  - generic [ref=e187]:
+                    - link [ref=e188] [cursor=pointer]:
+                      - /url: /dashboard/leads/cmqsj1fzm000001qpydy2ngna
+                      - button "View Detail" [ref=e189]:
+                        - img
+                    - button "Delete" [ref=e190]:
+                      - img
+  - region "Notifications alt+T"
+  - alert [ref=e169]

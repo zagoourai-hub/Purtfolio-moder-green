@@ -1,0 +1,9 @@
+[  631311ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost/projects?_rsc=5CB68i4pnAekjehf:0
+[  631311ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost/projects/desain-identitas-brand?_rsc=5CB68i4pnAekjehf:0
+[  631312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost/projects/aplikasi-mobile-banking?_rsc=5CB68i4pnAekjehf:0
+[  631312ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost/projects/ai-writing-assistant?_rsc=5CB68i4pnAekjehf:0
+[  631566ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost/projects/ecommerce-saas-dashboard?_rsc=5CB68i4pnAekjehf:0
+[  633626ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost/?_rsc=5CB68i4pnAekjehf:0
+[  635491ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost/services?_rsc=5CB68i4pnAekjehf:0
+[  635492ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost/blog?_rsc=5CB68i4pnAekjehf:0
+[  772725ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://localhost/?_rsc=5CB68i4pnAekjehf:0

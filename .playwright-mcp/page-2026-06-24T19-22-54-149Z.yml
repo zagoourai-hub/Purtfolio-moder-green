@@ -1,0 +1,425 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "P." [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]
+          - generic [ref=e9]: P.
+        - navigation [ref=e10]:
+          - link "Beranda" [ref=e11] [cursor=pointer]:
+            - /url: "#hero"
+            - text: Beranda
+          - link "Tentang Saya" [ref=e13] [cursor=pointer]:
+            - /url: "#about"
+          - link "Proyek" [ref=e14] [cursor=pointer]:
+            - /url: /projects
+          - link "Blog" [ref=e15] [cursor=pointer]:
+            - /url: /blog
+          - link "Kontak" [ref=e16] [cursor=pointer]:
+            - /url: "#contact"
+        - generic [ref=e17]:
+          - link "Ayo Ngobrol" [ref=e18] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Ayo Ngobrol
+            - img [ref=e19]
+          - img [ref=e22] [cursor=pointer]
+    - main [ref=e27]:
+      - generic [ref=e28]:
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - generic [ref=e34]: Hi, I'm
+            - generic [ref=e35]:
+              - heading "DEVELOPER & DESAINER" [level=1] [ref=e36]:
+                - text: DEVELOPER
+                - text: "& DESAINER"
+              - generic [ref=e37]:
+                - generic [ref=e38]: Building premium digital experiences that make an impact.
+                - img [ref=e39]
+            - paragraph [ref=e42]: I am a fullstack engineer and product designer specialized in Next.js, Node.js, and high-fidelity UI animations. I help businesses build sleek websites and scalable SaaS apps.
+            - generic [ref=e43]:
+              - link "Let's Talk" [ref=e44] [cursor=pointer]:
+                - /url: "#contact"
+                - text: Let's Talk
+                - img [ref=e45]
+              - link "Download CV" [ref=e47] [cursor=pointer]:
+                - /url: "#about"
+                - text: Download CV
+                - img [ref=e48]
+            - generic [ref=e51]:
+              - generic [ref=e52]: Terhubung dengan saya
+              - generic [ref=e53]:
+                - link [ref=e54] [cursor=pointer]:
+                  - /url: https://github.com
+                  - img [ref=e55]
+                - link [ref=e58] [cursor=pointer]:
+                  - /url: https://linkedin.com
+                  - img [ref=e59]
+                - link [ref=e63] [cursor=pointer]:
+                  - /url: https://twitter.com
+                  - img [ref=e64]
+                - link [ref=e66] [cursor=pointer]:
+                  - /url: https://instagram.com
+                  - img [ref=e67]
+          - generic [ref=e71]:
+            - img "Developer Portrait" [ref=e73]
+            - generic:
+              - img
+            - generic:
+              - generic: KODE
+              - generic: DESAIN
+              - generic: ULANGI
+              - img
+            - generic: ">_"
+            - generic:
+              - img:
+                - generic: • FOCUS • GROW • INSPIRE • DESIGN •
+              - img
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - img [ref=e77]
+              - generic [ref=e82]:
+                - generic [ref=e83]: 5+
+                - text: Tahun Pengalaman
+            - generic [ref=e84]:
+              - img [ref=e86]
+              - generic [ref=e89]:
+                - generic [ref=e90]: 50+
+                - text: Proyek Selesai
+            - generic [ref=e91]:
+              - img [ref=e93]
+              - generic [ref=e96]:
+                - generic [ref=e97]: 30+
+                - text: Klien Puas
+            - generic [ref=e98]:
+              - img [ref=e100]
+              - generic [ref=e106]:
+                - generic [ref=e107]: 10+
+                - text: Penghargaan
+        - generic [ref=e109]:
+          - generic [ref=e111]: TENTANG SAYA
+          - generic [ref=e112]:
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - img "Biography Portrait" [ref=e116]
+                - img [ref=e118]
+              - generic [ref=e120]:
+                - generic [ref=e121]:
+                  - img [ref=e123]
+                  - generic [ref=e126]:
+                    - generic [ref=e127]: Lokasi
+                    - text: Jakarta, Indonesia
+                - generic [ref=e128]:
+                  - img [ref=e130]
+                  - generic [ref=e133]:
+                    - generic [ref=e134]: Pengalaman
+                    - text: 5+ Tahun
+                - generic [ref=e135]:
+                  - img [ref=e137]
+                  - generic [ref=e140]:
+                    - generic [ref=e141]: Email
+                    - link "alex@zagoour.com" [ref=e142] [cursor=pointer]:
+                      - /url: mailto:alex@zagoour.com
+                - generic [ref=e143]:
+                  - img [ref=e145]
+                  - generic [ref=e147]:
+                    - generic [ref=e148]: Ketersediaan
+                    - text: Freelance / Full-time
+              - link "Lebih Lanjut Tentang Saya" [ref=e150] [cursor=pointer]:
+                - /url: "#contact"
+                - text: Lebih Lanjut Tentang Saya
+                - img [ref=e151]
+            - generic [ref=e153]:
+              - heading "Saya membangun produk digital, brand, dan pengalaman yang berkesan." [level=3] [ref=e154]
+              - generic [ref=e155]:
+                - paragraph [ref=e156]:
+                  - text: I am a
+                  - strong [ref=e157]: Senior Fullstack Developer
+                  - text: based in Jakarta, Indonesia. With over 6 years of experience, I build robust web architectures and beautiful interactive user interfaces.
+                - heading "Core Philosophy" [level=3] [ref=e158]
+                - paragraph [ref=e159]: I believe that code quality and design aesthetics should go hand in hand. A beautiful UI without a solid backend is just a shell, and a powerful backend without intuitive design is a missed opportunity.
+                - heading "Experience" [level=3] [ref=e160]
+                - list [ref=e161]:
+                  - listitem [ref=e162]:
+                    - strong [ref=e163]: Lead Developer
+                    - text: at Zagoour Labs (2023 - Present)
+                  - listitem [ref=e164]:
+                    - strong [ref=e165]: Frontend Engineer
+                    - text: at Tech Corp (2020 - 2023)
+                  - listitem [ref=e166]:
+                    - strong [ref=e167]: Freelance Web Designer
+                    - text: (2018 - 2020)
+        - generic [ref=e169]:
+          - generic [ref=e171]: KEAHLIAN SAYA
+          - generic [ref=e172]:
+            - generic [ref=e173]:
+              - generic [ref=e174]:
+                - img [ref=e176]
+                - heading "Frontend" [level=3] [ref=e180]
+              - generic [ref=e181]:
+                - generic [ref=e183]:
+                  - generic [ref=e184]: React / Next.js
+                  - generic [ref=e185]: 95%
+                - generic [ref=e188]:
+                  - generic [ref=e189]: TypeScript
+                  - generic [ref=e190]: 90%
+                - generic [ref=e193]:
+                  - generic [ref=e194]: Tailwind CSS
+                  - generic [ref=e195]: 95%
+                - generic [ref=e198]:
+                  - generic [ref=e199]: Framer Motion
+                  - generic [ref=e200]: 85%
+            - generic [ref=e202]:
+              - generic [ref=e203]:
+                - img [ref=e205]
+                - heading "Backend" [level=3] [ref=e207]
+              - generic [ref=e208]:
+                - generic [ref=e210]:
+                  - generic [ref=e211]: Node.js / Express
+                  - generic [ref=e212]: 88%
+                - generic [ref=e215]:
+                  - generic [ref=e216]: NestJS
+                  - generic [ref=e217]: 80%
+                - generic [ref=e220]:
+                  - generic [ref=e221]: Prisma & PostgreSQL
+                  - generic [ref=e222]: 85%
+            - generic [ref=e224]:
+              - generic [ref=e225]:
+                - img [ref=e227]
+                - heading "Tools & Lainnya" [level=3] [ref=e229]
+              - generic [ref=e232]:
+                - generic [ref=e233]: Docker & VPS Deploy
+                - generic [ref=e234]: 75%
+          - generic [ref=e237]: TEKNOLOGI YANG DIGUNAKAN
+          - generic [ref=e238]:
+            - generic [ref=e239]:
+              - img [ref=e241]:
+                - generic [ref=e243]: "N"
+              - generic: Next.js
+            - generic [ref=e244]:
+              - img [ref=e246]
+              - generic: React
+            - generic [ref=e252]:
+              - img [ref=e254]:
+                - generic [ref=e256]: TS
+              - generic: TypeScript
+            - generic [ref=e257]:
+              - img [ref=e259]
+              - generic: Tailwind CSS
+            - generic [ref=e262]:
+              - img [ref=e264]
+              - generic: Prisma
+            - generic [ref=e266]:
+              - img [ref=e268]
+              - generic: NestJS
+            - generic [ref=e270]:
+              - img [ref=e272]
+              - generic: Node.js
+            - generic [ref=e275]:
+              - img [ref=e277]
+              - generic: Git
+            - generic [ref=e282]:
+              - img [ref=e284]
+              - generic: GitHub
+            - generic [ref=e286]:
+              - img [ref=e288]
+              - generic: Docker
+            - generic [ref=e290]:
+              - img [ref=e292]
+              - generic: Figma
+            - generic [ref=e294]:
+              - img [ref=e296]
+              - generic: Vercel
+        - generic [ref=e299]:
+          - generic [ref=e300]:
+            - generic [ref=e301]: PROYEK UNGGULAN
+            - link "Lihat Semua Proyek" [ref=e302] [cursor=pointer]:
+              - /url: /projects
+              - text: Lihat Semua Proyek
+              - img [ref=e303]
+          - generic [ref=e305]:
+            - article [ref=e306] [cursor=pointer]:
+              - link "localhost:3000 E-Commerce SaaS Dashboard Next.js E-Commerce SaaS Dashboard Next.js" [ref=e307]:
+                - /url: /projects/ecommerce-saas-dashboard
+                - generic [ref=e311]:
+                  - generic [ref=e316]: localhost:3000
+                  - generic [ref=e317]:
+                    - generic [ref=e318]: E-Commerce SaaS Dashboard
+                    - generic [ref=e319]: Next.js
+                - generic [ref=e322]:
+                  - generic [ref=e323]:
+                    - heading "E-Commerce SaaS Dashboard" [level=3] [ref=e324]
+                    - text: Next.js
+                  - img [ref=e326]
+            - article [ref=e328] [cursor=pointer]:
+              - link "localhost:3000 AI Writing Assistant Next.js AI Writing Assistant Next.js" [ref=e329]:
+                - /url: /projects/ai-writing-assistant
+                - generic [ref=e333]:
+                  - generic [ref=e338]: localhost:3000
+                  - generic [ref=e339]:
+                    - generic [ref=e340]: AI Writing Assistant
+                    - generic [ref=e341]: Next.js
+                - generic [ref=e344]:
+                  - generic [ref=e345]:
+                    - heading "AI Writing Assistant" [level=3] [ref=e346]
+                    - text: Next.js
+                  - img [ref=e348]
+            - article [ref=e350] [cursor=pointer]:
+              - link "localhost:3000 Aplikasi Mobile Banking UI/UX Design Aplikasi Mobile Banking UI/UX Design" [ref=e351]:
+                - /url: /projects/aplikasi-mobile-banking
+                - generic [ref=e355]:
+                  - generic [ref=e360]: localhost:3000
+                  - generic [ref=e361]:
+                    - generic [ref=e362]: Aplikasi Mobile Banking
+                    - generic [ref=e363]: UI/UX Design
+                - generic [ref=e366]:
+                  - generic [ref=e367]:
+                    - heading "Aplikasi Mobile Banking" [level=3] [ref=e368]
+                    - text: UI/UX Design
+                  - img [ref=e370]
+            - article [ref=e372] [cursor=pointer]:
+              - link "localhost:3000 Desain Identitas Brand Branding Desain Identitas Brand Branding" [ref=e373]:
+                - /url: /projects/desain-identitas-brand
+                - generic [ref=e377]:
+                  - generic [ref=e382]: localhost:3000
+                  - generic [ref=e383]:
+                    - generic [ref=e384]: Desain Identitas Brand
+                    - generic [ref=e385]: Branding
+                - generic [ref=e388]:
+                  - generic [ref=e389]:
+                    - heading "Desain Identitas Brand" [level=3] [ref=e390]
+                    - text: Branding
+                  - img [ref=e392]
+        - generic [ref=e395]:
+          - generic [ref=e397]: LAYANAN SAYA
+          - generic [ref=e398]:
+            - generic [ref=e399]:
+              - img [ref=e401]
+              - heading "Web Application Development" [level=3] [ref=e403]
+              - paragraph [ref=e404]: Building fast, SEO-optimized websites and web apps using Next.js 16, TypeScript, and modern styling solutions.
+            - generic [ref=e405]:
+              - img [ref=e407]
+              - heading "API Design & Backend Architecture" [level=3] [ref=e412]
+              - paragraph [ref=e413]: Designing secure RESTful and GraphQL APIs with robust authentication (NextAuth, JWT) and PostgreSQL database integrations.
+            - generic [ref=e414]:
+              - img [ref=e416]
+              - heading "UI Animation & Micro-interactions" [level=3] [ref=e421]
+              - paragraph [ref=e422]: Crafting beautiful layouts and high-performance interactive interfaces using Framer Motion (Motion) to wow your users.
+        - generic [ref=e424]:
+          - generic [ref=e425]:
+            - generic [ref=e426]: APA KATA KLIEN
+            - generic [ref=e427]:
+              - button [ref=e428]:
+                - img [ref=e429]
+              - button [ref=e431]:
+                - img [ref=e432]
+          - generic [ref=e434]:
+            - generic [ref=e435]:
+              - generic [ref=e436]:
+                - img [ref=e437]
+                - img [ref=e439]
+                - img [ref=e441]
+                - img [ref=e443]
+                - img [ref=e445]
+              - blockquote [ref=e447]: “Alex is an outstanding engineer. He delivered our Next.js migration on schedule, and our website speed increased by 40%. The UI animations are incredibly smooth!”
+              - generic [ref=e448]:
+                - img [ref=e450]
+                - generic [ref=e453]:
+                  - heading "Jane Doe" [level=4] [ref=e454]
+                  - generic [ref=e455]: CTO, Innovate Ltd
+            - generic [ref=e456]:
+              - generic [ref=e457]:
+                - img [ref=e458]
+                - img [ref=e460]
+                - img [ref=e462]
+                - img [ref=e464]
+                - img [ref=e466]
+              - blockquote [ref=e468]: “Outstanding communication and top-tier code quality. The CMS panel makes it extremely easy for my marketing team to update copy and projects without developer intervention.”
+              - generic [ref=e469]:
+                - img [ref=e471]
+                - generic [ref=e474]:
+                  - heading "John Smith" [level=4] [ref=e475]
+                  - generic [ref=e476]: Founder, SaaS Launch
+        - generic [ref=e479]:
+          - generic [ref=e480]:
+            - heading "PUNYA IDE KEREN? YUK, WUJUDKAN BERSAMA!" [level=2] [ref=e481]:
+              - text: PUNYA IDE KEREN?
+              - text: YUK, WUJUDKAN BERSAMA!
+            - paragraph [ref=e482]: Ceritakan project kamu dan kita bikin sesuatu yang berdampak bareng.
+            - generic [ref=e483]:
+              - generic [ref=e484]:
+                - textbox "Nama Kamu" [ref=e486]
+                - textbox "Email Kamu" [ref=e488]
+              - textbox "Ceritakan Project Kamu" [ref=e490]
+              - button "Kirim Pesan" [ref=e492] [cursor=pointer]:
+                - text: Kirim Pesan
+                - img [ref=e493]
+          - generic [ref=e497]:
+            - generic [ref=e498]: SEDANG TERSEDIA UNTUK
+            - heading "PROYEK KEREN BERIKUTNYA!" [level=3] [ref=e499]:
+              - text: PROYEK
+              - text: KEREN
+              - text: BERIKUTNYA!
+            - img
+    - contentinfo [ref=e500]:
+      - generic [ref=e501]:
+        - generic [ref=e502]:
+          - generic [ref=e503]:
+            - link "P." [ref=e504] [cursor=pointer]:
+              - /url: /
+              - img [ref=e505]
+              - generic [ref=e507]: P.
+            - paragraph [ref=e508]: © 2026 Namakamu. Semua hak dilindungi.
+          - generic [ref=e509]:
+            - heading "Navigasi" [level=4] [ref=e510]
+            - generic [ref=e511]:
+              - link "Beranda" [ref=e512] [cursor=pointer]:
+                - /url: "#hero"
+              - link "Tentang Saya" [ref=e513] [cursor=pointer]:
+                - /url: "#about"
+              - link "Proyek" [ref=e514] [cursor=pointer]:
+                - /url: /projects
+              - link "Blog" [ref=e515] [cursor=pointer]:
+                - /url: /blog
+              - link "Kontak" [ref=e516] [cursor=pointer]:
+                - /url: "#contact"
+          - generic [ref=e517]:
+            - heading "Layanan" [level=4] [ref=e518]
+            - generic [ref=e519]:
+              - link "Web Development" [ref=e520] [cursor=pointer]:
+                - /url: /services
+              - link "UI/UX Design" [ref=e521] [cursor=pointer]:
+                - /url: /services
+              - link "Branding" [ref=e522] [cursor=pointer]:
+                - /url: /services
+              - link "SEO Optimization" [ref=e523] [cursor=pointer]:
+                - /url: /services
+          - generic [ref=e524]:
+            - heading "Kontak" [level=4] [ref=e525]
+            - generic [ref=e526]:
+              - link "hello@namakamu.com" [ref=e527] [cursor=pointer]:
+                - /url: mailto:hello@namakamu.com
+              - generic [ref=e528]: +62 812 3456 7890
+              - generic [ref=e529]: Jakarta, Indonesia
+          - generic [ref=e530]:
+            - heading "Ikuti Saya" [level=4] [ref=e531]
+            - generic [ref=e532]:
+              - link [ref=e533] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e534]
+              - link [ref=e537] [cursor=pointer]:
+                - /url: https://linkedin.com
+                - img [ref=e538]
+              - link [ref=e542] [cursor=pointer]:
+                - /url: https://twitter.com
+                - img [ref=e543]
+              - link [ref=e545] [cursor=pointer]:
+                - /url: https://instagram.com
+                - img [ref=e546]
+        - generic [ref=e549]:
+          - paragraph [ref=e550]: Didesain ulang sesuai dengan spesifikasi referensi.
+          - paragraph [ref=e551]:
+            - text: Build with premium aesthetics by
+            - generic [ref=e552]: Zagoour Studio
+  - region "Notifications alt+T"
+  - alert [ref=e553]

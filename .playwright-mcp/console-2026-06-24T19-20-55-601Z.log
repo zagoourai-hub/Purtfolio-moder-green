@@ -1,0 +1,10 @@
+[     126ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost/api/auth/session:0
+[     127ms] [ERROR] r: There was a problem with the server configuration. Check the server logs for more information.. Read more at https://errors.authjs.dev#autherror
+    at o (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:1:2661)
+    at async m (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:1:3873)
+    at async h._getSession (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:2:1677) @ http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:0
+[     170ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost/api/auth/session:0
+[     170ms] [ERROR] r: There was a problem with the server configuration. Check the server logs for more information.. Read more at https://errors.authjs.dev#autherror
+    at o (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:1:2661)
+    at async m (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:1:3873)
+    at async h._getSession (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:2:1677) @ http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:0

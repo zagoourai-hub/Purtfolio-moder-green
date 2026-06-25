@@ -1,0 +1,17 @@
+[   30073ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost/api/auth/session:0
+[   30074ms] [ERROR] r: There was a problem with the server configuration. Check the server logs for more information.. Read more at https://errors.authjs.dev#autherror
+    at o (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:1:2661)
+    at async m (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:1:3873)
+    at async h._getSession (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:2:1677) @ http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:0
+[   30089ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost/api/auth/session:0
+[   30089ms] [ERROR] r: There was a problem with the server configuration. Check the server logs for more information.. Read more at https://errors.authjs.dev#autherror
+    at o (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:1:2661)
+    at async m (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:1:3873)
+    at async h._getSession (http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:2:1677) @ http://localhost/_next/static/chunks/3pbi0x1uy_7au.js:0
+[   30102ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost/_next/static/chunks/1wxpani_f_7m2.js:0
+[   30126ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost/_next/image?url=%2Fdeveloper_portrait.jpg&w=384&q=75:0
+[   30126ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ http://localhost/_next/static/chunks/35euh9zymctnd.js:0
+[   30137ms] [ERROR] ChunkLoadError: Failed to load chunk /_next/static/chunks/1wxpani_f_7m2.js from module 64893
+    at http://localhost/_next/static/chunks/turbopack-3pke2d42mglu1.js:1:6129 @ http://localhost/_next/static/chunks/42ym4faz7r5fp.js:0
+[   30138ms] [ERROR] Next.js global error boundary caught: ChunkLoadError: Failed to load chunk /_next/static/chunks/1wxpani_f_7m2.js from module 64893
+    at http://localhost/_next/static/chunks/turbopack-3pke2d42mglu1.js:1:6129 @ http://localhost/_next/static/chunks/1s7kmkhx21etr.js:0

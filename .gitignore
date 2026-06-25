@@ -1,0 +1,8 @@
+# Ignore local PRD documentation
+PRD.md
+
+# Ignore local MCP configurations
+.mcp.json
+
+# Ignore local environment variables
+.env

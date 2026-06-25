@@ -1,0 +1,148 @@
+- generic [ref=e1]:
+  - generic [ref=e18]:
+    - banner [ref=e19]:
+      - generic [ref=e21]:
+        - link "P." [ref=e22] [cursor=pointer]:
+          - /url: /
+          - img [ref=e23]
+          - generic [ref=e25]: P.
+        - navigation [ref=e26]:
+          - link "Beranda" [ref=e27] [cursor=pointer]:
+            - /url: /#hero
+          - link "Tentang Saya" [ref=e29] [cursor=pointer]:
+            - /url: /#about
+          - link "Proyek" [active] [ref=e30] [cursor=pointer]:
+            - /url: /projects
+            - text: Proyek
+          - link "Blog" [ref=e31] [cursor=pointer]:
+            - /url: /blog
+          - link "Kontak" [ref=e32] [cursor=pointer]:
+            - /url: /#contact
+        - generic [ref=e33]:
+          - link "Ayo Ngobrol" [ref=e34] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Ayo Ngobrol
+            - img [ref=e35]
+          - img [ref=e38] [cursor=pointer]
+    - main [ref=e43]:
+      - generic [ref=e576]:
+        - generic [ref=e577]:
+          - heading "Portfolio" [level=1] [ref=e578]
+          - heading "My Creative Works" [level=2] [ref=e579]
+          - paragraph [ref=e581]: A curated list of web applications, client solutions, and tools that I have engineered. Filtered by production readiness.
+        - generic [ref=e582]:
+          - generic [ref=e583]:
+            - generic [ref=e585]:
+              - img [ref=e586]
+              - generic [ref=e589]: No Preview Image
+            - generic [ref=e590]:
+              - generic [ref=e591]:
+                - generic [ref=e592]: Next.js
+                - generic [ref=e593]: TypeScript
+                - generic [ref=e594]: Tailwind CSS
+                - generic [ref=e595]: Prisma
+                - generic [ref=e596]: PostgreSQL
+              - heading "E-Commerce SaaS Dashboard" [level=4] [ref=e597]
+              - paragraph [ref=e598]: A fully featured admin console to manage ecommerce analytics, product listings, orders, and customer queries. Key Features Dynamic interactive sales charts Realtime inventory tracking Advanced product filters and bulk editing
+              - generic [ref=e599]:
+                - link "View Details" [ref=e600] [cursor=pointer]:
+                  - /url: /projects/ecommerce-saas-dashboard
+                - generic [ref=e601]:
+                  - link "Source Code" [ref=e602] [cursor=pointer]:
+                    - /url: https://github.com/zagoour/saas-dashboard
+                    - img [ref=e603]
+                  - link "Live Demo" [ref=e606] [cursor=pointer]:
+                    - /url: https://demo.zagoour.com/saas
+                    - img [ref=e607]
+          - generic [ref=e611]:
+            - generic [ref=e613]:
+              - img [ref=e614]
+              - generic [ref=e617]: No Preview Image
+            - generic [ref=e618]:
+              - generic [ref=e619]:
+                - generic [ref=e620]: Next.js
+                - generic [ref=e621]: Gemini API
+                - generic [ref=e622]: Zustand
+                - generic [ref=e623]: Tailwind CSS
+              - heading "AI Writing Assistant" [level=4] [ref=e624]
+              - paragraph [ref=e625]: An interactive web editor integrated with Gemini API to help creators brainstorm topics, generate SEOfriendly outlines, and rewrite copy. Technologies Used Next.js 16 with AI SDK Tailwind CSS glassmorphism styling Zustand for local editor states
+              - generic [ref=e626]:
+                - link "View Details" [ref=e627] [cursor=pointer]:
+                  - /url: /projects/ai-writing-assistant
+                - generic [ref=e628]:
+                  - link "Source Code" [ref=e629] [cursor=pointer]:
+                    - /url: https://github.com/zagoour/ai-writer
+                    - img [ref=e630]
+                  - link "Live Demo" [ref=e633] [cursor=pointer]:
+                    - /url: https://demo.zagoour.com/ai-writer
+                    - img [ref=e634]
+    - contentinfo [ref=e514]:
+      - generic [ref=e515]:
+        - generic [ref=e516]:
+          - generic [ref=e517]:
+            - link "P." [ref=e518] [cursor=pointer]:
+              - /url: /
+              - img [ref=e519]
+              - generic [ref=e521]: P.
+            - paragraph [ref=e522]: © 2026 Namakamu. Semua hak dilindungi.
+          - generic [ref=e523]:
+            - heading "Navigasi" [level=4] [ref=e524]
+            - generic [ref=e525]:
+              - link "Beranda" [ref=e526] [cursor=pointer]:
+                - /url: "#hero"
+              - link "Tentang Saya" [ref=e527] [cursor=pointer]:
+                - /url: "#about"
+              - link "Proyek" [ref=e528] [cursor=pointer]:
+                - /url: /projects
+              - link "Blog" [ref=e529] [cursor=pointer]:
+                - /url: /blog
+              - link "Kontak" [ref=e530] [cursor=pointer]:
+                - /url: "#contact"
+          - generic [ref=e531]:
+            - heading "Layanan" [level=4] [ref=e532]
+            - generic [ref=e533]:
+              - link "Web Development" [ref=e534] [cursor=pointer]:
+                - /url: /services
+              - link "UI/UX Design" [ref=e535] [cursor=pointer]:
+                - /url: /services
+              - link "Branding" [ref=e536] [cursor=pointer]:
+                - /url: /services
+              - link "SEO Optimization" [ref=e537] [cursor=pointer]:
+                - /url: /services
+          - generic [ref=e538]:
+            - heading "Kontak" [level=4] [ref=e539]
+            - generic [ref=e540]:
+              - link "hello@namakamu.com" [ref=e541] [cursor=pointer]:
+                - /url: mailto:hello@namakamu.com
+              - generic [ref=e542]: +62 812 3456 7890
+              - generic [ref=e543]: Jakarta, Indonesia
+          - generic [ref=e544]:
+            - heading "Ikuti Saya" [level=4] [ref=e545]
+            - generic [ref=e546]:
+              - link [ref=e547] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e548]
+              - link [ref=e551] [cursor=pointer]:
+                - /url: https://linkedin.com
+                - img [ref=e552]
+              - link [ref=e556] [cursor=pointer]:
+                - /url: https://twitter.com
+                - img [ref=e557]
+              - link [ref=e559] [cursor=pointer]:
+                - /url: https://instagram.com
+                - img [ref=e560]
+            - generic [ref=e563]:
+              - generic [ref=e564]:
+                - text: CODE.
+                - text: CREATE.
+                - text: IMPACT.
+              - img [ref=e567]
+        - generic [ref=e570]:
+          - paragraph [ref=e571]: Didesain ulang sesuai dengan spesifikasi referensi.
+          - paragraph [ref=e572]:
+            - text: Build with premium aesthetics by
+            - generic [ref=e573]: Zagoour Studio
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e13] [cursor=pointer]:
+    - img [ref=e14]
+  - alert [ref=e17]: Projects — Alex Zagoour — Portfolio

@@ -1,0 +1,143 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - link "P." [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img [ref=e7]
+          - generic [ref=e9]: P.
+        - navigation [ref=e10]:
+          - link "Beranda" [ref=e11] [cursor=pointer]:
+            - /url: /#hero
+          - link "Tentang Saya" [ref=e12] [cursor=pointer]:
+            - /url: /#about
+          - link "Proyek" [ref=e13] [cursor=pointer]:
+            - /url: /projects
+            - text: Proyek
+          - link "Blog" [ref=e15] [cursor=pointer]:
+            - /url: /blog
+          - link "Kontak" [ref=e16] [cursor=pointer]:
+            - /url: /#contact
+        - generic [ref=e17]:
+          - link "Ayo Ngobrol" [ref=e18] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Ayo Ngobrol
+            - img [ref=e19]
+          - img [ref=e22] [cursor=pointer]
+    - main [ref=e27]:
+      - article [ref=e28]:
+        - generic [ref=e29]:
+          - link "Back to Projects" [ref=e31] [cursor=pointer]:
+            - /url: /projects
+            - img [ref=e32]
+            - text: Back to Projects
+          - generic [ref=e34]:
+            - heading "E-Commerce SaaS Dashboard" [level=1] [ref=e35]
+            - generic [ref=e36]:
+              - generic [ref=e37]:
+                - img [ref=e38]
+                - generic [ref=e40]: June 25, 2026
+              - generic [ref=e41]:
+                - img [ref=e42]
+                - generic [ref=e45]: Portfolio Project
+          - generic [ref=e47]:
+            - img [ref=e48]
+            - generic [ref=e51]: No Preview Image Available
+          - generic [ref=e52]:
+            - generic [ref=e54]:
+              - heading "Project Overview" [level=2] [ref=e55]
+              - generic [ref=e56]:
+                - paragraph [ref=e57]: A fully featured admin console to manage e-commerce analytics, product listings, orders, and customer queries.
+                - heading "Key Features" [level=3] [ref=e58]
+                - list [ref=e59]:
+                  - listitem [ref=e60]: Dynamic interactive sales charts
+                  - listitem [ref=e61]: Real-time inventory tracking
+                  - listitem [ref=e62]: Advanced product filters and bulk editing
+            - complementary [ref=e63]:
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - heading "Technologies Used" [level=3] [ref=e66]
+                  - generic [ref=e67]:
+                    - generic [ref=e68]: Next.js
+                    - generic [ref=e69]: TypeScript
+                    - generic [ref=e70]: Tailwind CSS
+                    - generic [ref=e71]: Prisma
+                    - generic [ref=e72]: PostgreSQL
+                - generic [ref=e73]:
+                  - link "Live Demo" [ref=e74] [cursor=pointer]:
+                    - /url: https://demo.zagoour.com/saas
+                    - img [ref=e75]
+                    - text: Live Demo
+                  - link "Source Repository" [ref=e79] [cursor=pointer]:
+                    - /url: https://github.com/zagoour/saas-dashboard
+                    - img [ref=e80]
+                    - text: Source Repository
+    - contentinfo [ref=e83]:
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - link "P." [ref=e87] [cursor=pointer]:
+              - /url: /
+              - img [ref=e88]
+              - generic [ref=e90]: P.
+            - paragraph [ref=e91]: © 2026 Namakamu. Semua hak dilindungi.
+          - generic [ref=e92]:
+            - heading "Navigasi" [level=4] [ref=e93]
+            - generic [ref=e94]:
+              - link "Beranda" [ref=e95] [cursor=pointer]:
+                - /url: "#hero"
+              - link "Tentang Saya" [ref=e96] [cursor=pointer]:
+                - /url: "#about"
+              - link "Proyek" [ref=e97] [cursor=pointer]:
+                - /url: /projects
+              - link "Blog" [ref=e98] [cursor=pointer]:
+                - /url: /blog
+              - link "Kontak" [ref=e99] [cursor=pointer]:
+                - /url: "#contact"
+          - generic [ref=e100]:
+            - heading "Layanan" [level=4] [ref=e101]
+            - generic [ref=e102]:
+              - link "Web Development" [ref=e103] [cursor=pointer]:
+                - /url: /services
+              - link "UI/UX Design" [ref=e104] [cursor=pointer]:
+                - /url: /services
+              - link "Branding" [ref=e105] [cursor=pointer]:
+                - /url: /services
+              - link "SEO Optimization" [ref=e106] [cursor=pointer]:
+                - /url: /services
+          - generic [ref=e107]:
+            - heading "Kontak" [level=4] [ref=e108]
+            - generic [ref=e109]:
+              - link "hello@namakamu.com" [ref=e110] [cursor=pointer]:
+                - /url: mailto:hello@namakamu.com
+              - generic [ref=e111]: +62 812 3456 7890
+              - generic [ref=e112]: Jakarta, Indonesia
+          - generic [ref=e113]:
+            - heading "Ikuti Saya" [level=4] [ref=e114]
+            - generic [ref=e115]:
+              - link [ref=e116] [cursor=pointer]:
+                - /url: https://github.com
+                - img [ref=e117]
+              - link [ref=e120] [cursor=pointer]:
+                - /url: https://linkedin.com
+                - img [ref=e121]
+              - link [ref=e125] [cursor=pointer]:
+                - /url: https://twitter.com
+                - img [ref=e126]
+              - link [ref=e128] [cursor=pointer]:
+                - /url: https://instagram.com
+                - img [ref=e129]
+            - generic [ref=e132]:
+              - generic [ref=e133]:
+                - text: CODE.
+                - text: CREATE.
+                - text: IMPACT.
+              - img [ref=e136]
+        - generic [ref=e139]:
+          - paragraph [ref=e140]: Didesain ulang sesuai dengan spesifikasi referensi.
+          - paragraph [ref=e141]:
+            - text: Build with premium aesthetics by
+            - generic [ref=e142]: Zagoour Studio
+  - region "Notifications alt+T"
+  - button "Open Next.js Dev Tools" [ref=e148] [cursor=pointer]:
+    - img [ref=e149]
